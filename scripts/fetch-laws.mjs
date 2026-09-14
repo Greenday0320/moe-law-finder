@@ -33,14 +33,21 @@ const LAWS_DIR = path.join(DATA_DIR, 'laws');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function fetchJson(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'moe-law-finder/1.0' } });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  const text = await res.text();
-  try {
-    return JSON.parse(text);
-  } catch {
-    throw new Error(`JSON 파싱 실패 (응답 앞부분): ${text.slice(0, 200)}`);
+async function fetchJson(url, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': 'moe-law-finder/1.0' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      const text = await res.text();
+      try {
+        return JSON.parse(text);
+      } catch {
+        throw new Error(`JSON 파싱 실패 (응답 앞부분): ${text.slice(0, 200)}`);
+      }
+    } catch (err) {
+      if (attempt === retries) throw err;
+      await sleep(1000 * attempt);
+    }
   }
 }
 
