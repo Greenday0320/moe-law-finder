@@ -100,13 +100,16 @@
       return;
     }
     detailArticles.innerHTML = list
-      .map(
-        (a) => `
+      .map((a) => {
+        if (a.type === 'heading') {
+          return `<p class="article-heading">${escapeHtml(a.text || '')}</p>`;
+        }
+        return `
         <div class="article">
           <p class="article-title">${a.title || `제${a.no}조`}</p>
           <p class="article-text">${escapeHtml(a.text || '')}</p>
-        </div>`
-      )
+        </div>`;
+      })
       .join('');
   }
 

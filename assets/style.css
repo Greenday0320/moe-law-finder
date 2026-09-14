@@ -236,6 +236,14 @@ main {
   padding: 12px 0;
 }
 
+.article-heading {
+  margin: 18px 0 4px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  border-top: none;
+}
+
 .article-title {
   font-weight: 600;
   margin: 0 0 6px;

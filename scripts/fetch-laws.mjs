@@ -157,6 +157,9 @@ function formatJoText(jo) {
   return lines.join('\n');
 }
 
+// 조문단위 배열에는 실제 조문 외에 "제1장 총칙" 같은 장/절 구분 항목도 섞여 있다.
+// 이런 구분 항목은 조문여부가 "조문"이 아니고(보통 "전문"), 조문번호가 실제 조문과
+// 우연히 같은 값(주로 "1")을 가져서 구분 없이 두면 "제1조"가 두 번 나온 것처럼 보인다.
 function extractArticles(json) {
   const root = json?.법령 ?? json?.Law ?? json;
   const joMok = root?.조문?.조문단위 ?? root?.조문 ?? null;
@@ -166,8 +169,9 @@ function extractArticles(json) {
       const no = pick(jo, ['조문번호', '조번호']);
       const title = pick(jo, ['조문제목', '조제목']) || '';
       const text = formatJoText(jo);
+      const type = jo?.조문여부 === '조문' ? 'article' : 'heading';
       if (!no && !text) return null;
-      return { no, title, text };
+      return { no, title, text, type };
     })
     .filter(Boolean);
 }
