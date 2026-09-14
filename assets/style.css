@@ -227,6 +227,33 @@ main {
   text-decoration: none;
 }
 
+.related-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.related-tabs:empty {
+  display: none;
+}
+
+.related-tab {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--chip-bg);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.related-tab.current {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  border-color: var(--primary);
+  cursor: default;
+}
+
 .article-search {
   margin-bottom: 12px;
 }
