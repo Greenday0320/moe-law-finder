@@ -189,14 +189,26 @@ function extractArticles(json) {
     .filter(Boolean);
 }
 
-async function fetchArticles(mst) {
+// 법령 기본정보의 연락부서(부서단위)에 실제 담당 과(課) 이름이 들어있어
+// 이걸로 교육부 조직도(실/국/관/과)와 법령을 연결해 부서별로 묶을 수 있다.
+function extractDepartments(json) {
+  const root = json?.법령 ?? json?.Law ?? json;
+  const buseo = root?.기본정보?.연락부서?.부서단위 ?? null;
+  if (!buseo) return [];
+  const names = asList(buseo)
+    .map((b) => pick(b, ['부서명']))
+    .filter(Boolean);
+  return [...new Set(names)];
+}
+
+async function fetchLawDetail(mst) {
   const url = new URL(SERVICE_URL);
   url.searchParams.set('OC', OC);
   url.searchParams.set('target', 'law');
   url.searchParams.set('type', 'JSON');
   url.searchParams.set('MST', String(mst));
   const json = await fetchJson(url.toString());
-  return extractArticles(json);
+  return { articles: extractArticles(json), departments: extractDepartments(json) };
 }
 
 async function main() {
@@ -226,8 +238,11 @@ async function main() {
 
   for (const law of laws) {
     let articles = [];
+    let departments = [];
     try {
-      articles = await fetchArticles(law.mst);
+      const detail = await fetchLawDetail(law.mst);
+      articles = detail.articles;
+      departments = detail.departments;
       if (articles.length > 0) articlesFetched++;
       else failedLaws.push(law);
     } catch (err) {
@@ -236,10 +251,10 @@ async function main() {
     }
     await writeFile(
       path.join(LAWS_DIR, `${law.mst}.json`),
-      JSON.stringify({ ...law, articles }, null, 2),
+      JSON.stringify({ ...law, departments, articles }, null, 2),
       'utf-8'
     );
-    index.push({ ...law, hasArticles: articles.length > 0 });
+    index.push({ ...law, departments, hasArticles: articles.length > 0 });
     await sleep(200);
   }
 
@@ -250,16 +265,19 @@ async function main() {
     await sleep(3000);
     for (const law of failedLaws) {
       try {
-        const articles = await fetchArticles(law.mst);
-        if (articles.length > 0) {
+        const detail = await fetchLawDetail(law.mst);
+        if (detail.articles.length > 0) {
           articlesFetched++;
           await writeFile(
             path.join(LAWS_DIR, `${law.mst}.json`),
-            JSON.stringify({ ...law, articles }, null, 2),
+            JSON.stringify({ ...law, departments: detail.departments, articles: detail.articles }, null, 2),
             'utf-8'
           );
           const entry = index.find((l) => l.mst === law.mst);
-          if (entry) entry.hasArticles = true;
+          if (entry) {
+            entry.hasArticles = true;
+            entry.departments = detail.departments;
+          }
         }
       } catch (err) {
         console.warn(`재시도 실패: ${law.name} (MST=${law.mst}) - ${err.message}`);

@@ -3,6 +3,7 @@
     laws: [],
     category: '전체',
     query: '',
+    department: null,
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -12,6 +13,12 @@
   const updatedEl = $('#updated-at');
   const searchInput = $('#search-input');
   const tabs = document.querySelectorAll('.tab');
+  const deptChip = $('#dept-filter-chip');
+
+  const viewModeButtons = document.querySelectorAll('.view-mode');
+  const searchView = $('#search-view');
+  const orgView = $('#org-view');
+  const orgTreeEl = $('#org-tree');
 
   const overlay = $('#detail-overlay');
   const detailTitle = $('#detail-title');
@@ -42,14 +49,24 @@
     return groups;
   }
 
+  function deptLabel(law) {
+    if (law.departments && law.departments.length > 0) {
+      return `${law.department || ''} ${law.departments.join(', ')}`.trim();
+    }
+    return law.department || '';
+  }
+
   function formatDate(d) {
     if (!d || d.length !== 8) return d || '';
     return `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6, 8)}`;
   }
 
   async function loadIndex() {
-    const res = await fetch('data/index.json', { cache: 'no-cache' });
-    const data = await res.json();
+    const [indexRes, orgRes] = await Promise.all([
+      fetch('data/index.json', { cache: 'no-cache' }),
+      fetch('data/org.json', { cache: 'no-cache' }).catch(() => null),
+    ]);
+    const data = await indexRes.json();
     state.laws = data.laws || [];
     state.groups = buildGroups(state.laws);
     if (data.sample) {
@@ -58,17 +75,81 @@
       const d = new Date(data.updatedAt);
       updatedEl.textContent = `최근 업데이트: ${d.toLocaleDateString('ko-KR')} · 총 ${data.count}건`;
     }
+    if (orgRes && orgRes.ok) {
+      state.org = await orgRes.json();
+      renderOrgTree();
+    }
     render();
   }
 
   function matches(law) {
     const categoryOk = state.category === '전체' || law.category === state.category;
     if (!categoryOk) return false;
+    if (state.department && !(law.departments || []).includes(state.department)) return false;
     if (!state.query) return true;
     return normalize(law.name).includes(normalize(state.query));
   }
 
+  function setDepartment(name) {
+    state.department = name;
+    switchView('search');
+    render();
+  }
+
+  function renderDeptChip() {
+    if (!state.department) {
+      deptChip.hidden = true;
+      deptChip.innerHTML = '';
+      return;
+    }
+    deptChip.hidden = false;
+    deptChip.innerHTML = `부서: ${state.department} <button type="button" id="dept-clear" aria-label="필터 해제">&times;</button>`;
+    $('#dept-clear').addEventListener('click', () => {
+      state.department = null;
+      render();
+    });
+  }
+
+  function countForDept(name) {
+    return state.laws.filter((l) => (l.departments || []).includes(name)).length;
+  }
+
+  function countForNode(node) {
+    if (!node.children) return countForDept(node.name);
+    return node.children.reduce((sum, c) => sum + countForNode(c), 0);
+  }
+
+  function renderOrgNode(node) {
+    if (!node.children) {
+      const count = countForDept(node.name);
+      const disabled = count === 0;
+      return `<button type="button" class="org-leaf${disabled ? ' empty' : ''}" data-dept="${node.name}" ${disabled ? 'disabled' : ''}>
+        <span>${node.name}</span><span class="count">${count}건</span>
+      </button>`;
+    }
+    const total = countForNode(node);
+    return `<details>
+      <summary><span>${node.name}</span><span class="count">${total}건</span></summary>
+      ${node.children.map(renderOrgNode).join('')}
+    </details>`;
+  }
+
+  function renderOrgTree() {
+    if (!state.org) return;
+    orgTreeEl.innerHTML = state.org.map(renderOrgNode).join('');
+    orgTreeEl.querySelectorAll('.org-leaf:not(.empty)').forEach((btn) => {
+      btn.addEventListener('click', () => setDepartment(btn.dataset.dept));
+    });
+  }
+
+  function switchView(mode) {
+    viewModeButtons.forEach((b) => b.classList.toggle('active', b.dataset.mode === mode));
+    searchView.hidden = mode !== 'search';
+    orgView.hidden = mode !== 'org';
+  }
+
   function render() {
+    renderDeptChip();
     const filtered = state.laws.filter(matches);
     listEl.innerHTML = '';
     countEl.textContent = `${filtered.length}건`;
@@ -82,7 +163,7 @@
           <span class="badge ${law.category}">${law.category}</span>
         </div>
         <p class="law-name">${law.name}</p>
-        <p class="law-meta">${law.department || ''} · 시행일 ${formatDate(law.enforcementDate)}</p>
+        <p class="law-meta">${deptLabel(law)} · 시행일 ${formatDate(law.enforcementDate)}</p>
       `;
       li.addEventListener('click', () => openDetail(law));
       listEl.appendChild(li);
@@ -92,7 +173,7 @@
   async function openDetail(law) {
     overlay.hidden = false;
     detailTitle.textContent = law.name;
-    detailMeta.textContent = `${law.categoryRaw || law.category} · ${law.department || ''} · 공포 ${formatDate(law.promulgationDate)} · 시행 ${formatDate(law.enforcementDate)}`;
+    detailMeta.textContent = `${law.categoryRaw || law.category} · ${deptLabel(law)} · 공포 ${formatDate(law.promulgationDate)} · 시행 ${formatDate(law.enforcementDate)}`;
     detailLink.href = law.detailLink || '#';
     renderRelatedTabs(law);
     articleSearchInput.value = '';
@@ -177,6 +258,10 @@
       state.category = tab.dataset.category;
       render();
     });
+  });
+
+  viewModeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => switchView(btn.dataset.mode));
   });
 
   closeBtn.addEventListener('click', closeDetail);

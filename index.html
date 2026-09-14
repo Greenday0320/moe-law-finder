@@ -17,21 +17,35 @@
 </header>
 
 <main>
-  <div class="search-bar">
-    <input type="search" id="search-input" placeholder="법령명으로 검색 (예: 초중등교육법)" autocomplete="off" />
+  <div class="view-mode-tabs" id="view-mode-tabs">
+    <button class="view-mode active" data-mode="search">검색으로 찾기</button>
+    <button class="view-mode" data-mode="org">부서별로 찾기</button>
   </div>
 
-  <div class="filter-tabs" id="filter-tabs">
-    <button class="tab active" data-category="전체">전체</button>
-    <button class="tab" data-category="법률">법률</button>
-    <button class="tab" data-category="시행령">시행령</button>
-    <button class="tab" data-category="시행규칙">시행규칙</button>
+  <div id="search-view">
+    <div class="search-bar">
+      <input type="search" id="search-input" placeholder="법령명으로 검색 (예: 초중등교육법)" autocomplete="off" />
+    </div>
+
+    <div class="filter-tabs" id="filter-tabs">
+      <button class="tab active" data-category="전체">전체</button>
+      <button class="tab" data-category="법률">법률</button>
+      <button class="tab" data-category="시행령">시행령</button>
+      <button class="tab" data-category="시행규칙">시행규칙</button>
+    </div>
+
+    <div class="dept-filter-chip" id="dept-filter-chip" hidden></div>
+
+    <p class="result-count" id="result-count"></p>
+
+    <ul class="law-list" id="law-list"></ul>
+    <p class="empty-state" id="empty-state" hidden>검색 결과가 없습니다.</p>
   </div>
 
-  <p class="result-count" id="result-count"></p>
-
-  <ul class="law-list" id="law-list"></ul>
-  <p class="empty-state" id="empty-state" hidden>검색 결과가 없습니다.</p>
+  <div id="org-view" hidden>
+    <p class="org-hint">부서(과)를 선택하면 해당 부서 소관 법령을 볼 수 있어요.</p>
+    <div id="org-tree"></div>
+  </div>
 </main>
 
 <div class="detail-overlay" id="detail-overlay" hidden>
