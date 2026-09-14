@@ -33,6 +33,12 @@
   // 다른 문자라서 별도로 제거해줘야 "초중등교육법"처럼 점 없이 검색해도 매칭된다.
   const normalize = (s) => (s || '').toLowerCase().replace(/[\s·ㆍ.\-]/g, '');
 
+  // 법령의 연락부서명에는 "교원정책과:초중등교원"처럼 세부 업무가 덧붙는 경우가
+  // 있어, 조직도의 과 이름과 맞추려면 ":"나 "-" 뒤를 떼어 기본 과 이름만 비교한다.
+  function normalizeDept(name) {
+    return (name || '').split(/[:\-]/)[0].trim();
+  }
+
   // "OO법 시행령", "OO법 시행규칙" 처럼 이름 뒤에 붙는 접미사를 떼어
   // 법률-시행령-시행규칙을 같은 그룹으로 묶기 위한 기준 이름을 만든다.
   const TIER_ORDER = { 법률: 0, 시행령: 1, 시행규칙: 2 };
@@ -85,7 +91,7 @@
   function matches(law) {
     const categoryOk = state.category === '전체' || law.category === state.category;
     if (!categoryOk) return false;
-    if (state.department && !(law.departments || []).includes(state.department)) return false;
+    if (state.department && !(law.departments || []).some((d) => normalizeDept(d) === state.department)) return false;
     if (!state.query) return true;
     return normalize(law.name).includes(normalize(state.query));
   }
@@ -111,7 +117,7 @@
   }
 
   function countForDept(name) {
-    return state.laws.filter((l) => (l.departments || []).includes(name)).length;
+    return state.laws.filter((l) => (l.departments || []).some((d) => normalizeDept(d) === name)).length;
   }
 
   function countForNode(node) {

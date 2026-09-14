@@ -103,6 +103,10 @@ main {
   border-color: var(--primary);
 }
 
+.dept-filter-chip[hidden] {
+  display: none;
+}
+
 .dept-filter-chip {
   display: inline-flex;
   align-items: center;
