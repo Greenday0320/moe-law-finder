@@ -8,5 +8,16 @@
   "promulgationDate": "20260107",
   "enforcementDate": "20260301",
   "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=282771&type=HTML&mobileYn=&efYd=20260301",
-  "articles": []
+  "articles": [
+    {
+      "no": "1",
+      "title": "목적",
+      "text": "제1조(목적) 이 규칙은 「도서ㆍ벽지 교육진흥법」(이하 \"법\"이라 한다) 제2조의 규정에 의하여 도서ㆍ벽지지역을 정함을 목적으로 한다. <개정 2005.3.15>"
+    },
+    {
+      "no": "2",
+      "title": "도서ㆍ벽지지역과 등급별 구분",
+      "text": "제2조(도서ㆍ벽지지역과 등급별 구분) 법 제2조의 규정에 의한 도서ㆍ벽지의 지역과 그 등급별 구분은 별표와 같다."
+    }
+  ]
 }
