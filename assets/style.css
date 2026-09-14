@@ -1,0 +1,258 @@
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --text: #1c1e21;
+  --text-muted: #6b7280;
+  --primary: #1a4d8f;
+  --primary-contrast: #ffffff;
+  --border: #e2e5ea;
+  --chip-bg: #eef2f7;
+  --law-color: #1a4d8f;
+  --decree-color: #a8590a;
+  --rule-color: #2f7a3d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --surface: #1f2226;
+    --text: #f0f1f3;
+    --text-muted: #9aa0a8;
+    --primary: #6ea8f0;
+    --primary-contrast: #0b1220;
+    --border: #33373d;
+    --chip-bg: #2a2e33;
+    --law-color: #6ea8f0;
+    --decree-color: #e0a95f;
+    --rule-color: #7cc98a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+.app-header {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  padding: 20px 16px 16px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 12px 16px 40px;
+}
+
+.search-bar {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  padding: 12px 0 8px;
+  z-index: 5;
+}
+
+#search-input, #article-search-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.tab {
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  border-color: var(--primary);
+}
+
+.result-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 10px 2px;
+}
+
+.law-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.law-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+
+.law-item:active {
+  opacity: 0.8;
+}
+
+.law-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--text-muted);
+  flex: none;
+}
+
+.badge.법률 { color: var(--law-color); }
+.badge.시행령 { color: var(--decree-color); }
+.badge.시행규칙 { color: var(--rule-color); }
+
+.law-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.law-meta {
+  margin: 4px 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-muted);
+  margin-top: 40px;
+}
+
+.detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: flex-end;
+  z-index: 20;
+}
+
+.detail-overlay[hidden] {
+  display: none;
+}
+
+.detail-panel {
+  background: var(--surface);
+  color: var(--text);
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  border-radius: 16px 16px 0 0;
+  padding: 20px 18px 32px;
+  position: relative;
+}
+
+@media (min-width: 760px) {
+  .detail-overlay { align-items: center; justify-content: center; }
+  .detail-panel { width: 640px; max-height: 80vh; border-radius: 16px; }
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+#detail-title {
+  margin: 6px 30px 4px 0;
+  font-size: 1.15rem;
+}
+
+.detail-meta {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin: 0 0 10px;
+}
+
+#detail-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--primary);
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.article-search {
+  margin-bottom: 12px;
+}
+
+.article {
+  border-top: 1px solid var(--border);
+  padding: 12px 0;
+}
+
+.article-title {
+  font-weight: 600;
+  margin: 0 0 6px;
+  font-size: 0.92rem;
+}
+
+.article-text {
+  white-space: pre-wrap;
+  font-size: 0.88rem;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.no-articles {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 20px 0;
+  text-align: center;
+}

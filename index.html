@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>교육부 법령 찾기</title>
+<meta name="description" content="교육부 소관 법률·시행령·시행규칙을 빠르게 검색합니다." />
+<meta name="theme-color" content="#1a4d8f" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%93%9A</text></svg>" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="app-header">
+  <h1>교육부 법령 찾기</h1>
+  <p class="subtitle" id="updated-at">데이터 불러오는 중...</p>
+</header>
+
+<main>
+  <div class="search-bar">
+    <input type="search" id="search-input" placeholder="법령명으로 검색 (예: 초중등교육법)" autocomplete="off" />
+  </div>
+
+  <div class="filter-tabs" id="filter-tabs">
+    <button class="tab active" data-category="전체">전체</button>
+    <button class="tab" data-category="법률">법률</button>
+    <button class="tab" data-category="시행령">시행령</button>
+    <button class="tab" data-category="시행규칙">시행규칙</button>
+  </div>
+
+  <p class="result-count" id="result-count"></p>
+
+  <ul class="law-list" id="law-list"></ul>
+  <p class="empty-state" id="empty-state" hidden>검색 결과가 없습니다.</p>
+</main>
+
+<div class="detail-overlay" id="detail-overlay" hidden>
+  <div class="detail-panel">
+    <button class="close-btn" id="detail-close" aria-label="닫기">&times;</button>
+    <h2 id="detail-title"></h2>
+    <p class="detail-meta" id="detail-meta"></p>
+    <a id="detail-link" href="#" target="_blank" rel="noopener">국가법령정보센터에서 원문 보기 ↗</a>
+
+    <div class="article-search">
+      <input type="search" id="article-search-input" placeholder="이 법령 조문 내 검색" autocomplete="off" />
+    </div>
+    <div id="detail-articles"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "moe-law-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "교육부 소관 법령(법률·시행령·시행규칙) 검색 사이트",
+  "scripts": {
+    "fetch-laws": "node scripts/fetch-laws.mjs"
+  }
+}

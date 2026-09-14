@@ -1,0 +1,37 @@
+name: Update law data
+
+on:
+  schedule:
+    # 매주 월요일 05:00 KST (UTC 20:00 일요일)
+    - cron: '0 20 * * 0'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch laws from law.go.kr
+        env:
+          LAW_API_OC: ${{ secrets.LAW_API_OC }}
+        run: node scripts/fetch-laws.mjs
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data; then
+            echo "변경 사항 없음"
+          else
+            git add data
+            git commit -m "chore: 법령 데이터 갱신 $(date -u +%Y-%m-%d)"
+            git push
+          fi

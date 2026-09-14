@@ -1,0 +1,24 @@
+{
+  "id": "sample-001",
+  "mst": "sample-001",
+  "name": "교육기본법",
+  "category": "법률",
+  "categoryRaw": "법률",
+  "department": "교육부",
+  "promulgationDate": "20000101",
+  "enforcementDate": "20000101",
+  "detailLink": "https://www.law.go.kr/법령/교육기본법",
+  "sample": true,
+  "articles": [
+    {
+      "no": "1",
+      "title": "제1조(목적)",
+      "text": "이 샘플 조문은 실제 법령 데이터가 아닙니다. GitHub Actions 실행 후 국가법령정보센터의 실제 조문으로 교체됩니다."
+    },
+    {
+      "no": "2",
+      "title": "제2조(교육이념)",
+      "text": "이 샘플 조문은 실제 법령 데이터가 아닙니다. GitHub Actions 실행 후 국가법령정보센터의 실제 조문으로 교체됩니다."
+    }
+  ]
+}

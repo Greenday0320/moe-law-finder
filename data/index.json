@@ -1,0 +1,104 @@
+{
+  "updatedAt": null,
+  "count": 8,
+  "sample": true,
+  "note": "이 파일은 초기 샘플 데이터입니다. GitHub Actions(update-laws 워크플로)가 처음 실행되면 실제 국가법령정보센터 데이터로 자동 교체됩니다.",
+  "laws": [
+    {
+      "id": "sample-001",
+      "mst": "sample-001",
+      "name": "교육기본법",
+      "category": "법률",
+      "categoryRaw": "법률",
+      "department": "교육부",
+      "promulgationDate": "20000101",
+      "enforcementDate": "20000101",
+      "detailLink": "https://www.law.go.kr/법령/교육기본법",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-002",
+      "mst": "sample-002",
+      "name": "초·중등교육법",
+      "category": "법률",
+      "categoryRaw": "법률",
+      "department": "교육부",
+      "promulgationDate": "19970101",
+      "enforcementDate": "19970101",
+      "detailLink": "https://www.law.go.kr/법령/초·중등교육법",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-003",
+      "mst": "sample-003",
+      "name": "초·중등교육법 시행령",
+      "category": "시행령",
+      "categoryRaw": "대통령령",
+      "department": "교육부",
+      "promulgationDate": "19980101",
+      "enforcementDate": "19980101",
+      "detailLink": "https://www.law.go.kr/법령/초·중등교육법시행령",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-004",
+      "mst": "sample-004",
+      "name": "초·중등교육법 시행규칙",
+      "category": "시행규칙",
+      "categoryRaw": "부령",
+      "department": "교육부",
+      "promulgationDate": "19980101",
+      "enforcementDate": "19980101",
+      "detailLink": "https://www.law.go.kr/법령/초·중등교육법시행규칙",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-005",
+      "mst": "sample-005",
+      "name": "고등교육법",
+      "category": "법률",
+      "categoryRaw": "법률",
+      "department": "교육부",
+      "promulgationDate": "19970101",
+      "enforcementDate": "19970101",
+      "detailLink": "https://www.law.go.kr/법령/고등교육법",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-006",
+      "mst": "sample-006",
+      "name": "고등교육법 시행령",
+      "category": "시행령",
+      "categoryRaw": "대통령령",
+      "department": "교육부",
+      "promulgationDate": "19980101",
+      "enforcementDate": "19980101",
+      "detailLink": "https://www.law.go.kr/법령/고등교육법시행령",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-007",
+      "mst": "sample-007",
+      "name": "유아교육법",
+      "category": "법률",
+      "categoryRaw": "법률",
+      "department": "교육부",
+      "promulgationDate": "20040101",
+      "enforcementDate": "20040101",
+      "detailLink": "https://www.law.go.kr/법령/유아교육법",
+      "hasArticles": false
+    },
+    {
+      "id": "sample-008",
+      "mst": "sample-008",
+      "name": "평생교육법",
+      "category": "법률",
+      "categoryRaw": "법률",
+      "department": "교육부",
+      "promulgationDate": "19990101",
+      "enforcementDate": "19990101",
+      "detailLink": "https://www.law.go.kr/법령/평생교육법",
+      "hasArticles": false
+    }
+  ]
+}
