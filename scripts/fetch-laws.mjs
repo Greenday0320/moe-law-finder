@@ -208,16 +208,17 @@ async function main() {
   await mkdir(LAWS_DIR, { recursive: true });
 
   const index = [];
+  const failedLaws = [];
   let articlesFetched = 0;
-  let articlesFailed = 0;
 
   for (const law of laws) {
     let articles = [];
     try {
       articles = await fetchArticles(law.mst);
       if (articles.length > 0) articlesFetched++;
+      else failedLaws.push(law);
     } catch (err) {
-      articlesFailed++;
+      failedLaws.push(law);
       console.warn(`조문 조회 실패: ${law.name} (MST=${law.mst}) - ${err.message}`);
     }
     await writeFile(
@@ -228,6 +229,33 @@ async function main() {
     index.push({ ...law, hasArticles: articles.length > 0 });
     await sleep(200);
   }
+
+  // 첫 시도에서 실패한 항목은 API 서버의 일시적 오류일 가능성이 높아
+  // 잠시 대기 후 한 번 더 재시도한다.
+  if (failedLaws.length > 0) {
+    console.log(`1차 실패 ${failedLaws.length}건 재시도 중...`);
+    await sleep(3000);
+    for (const law of failedLaws) {
+      try {
+        const articles = await fetchArticles(law.mst);
+        if (articles.length > 0) {
+          articlesFetched++;
+          await writeFile(
+            path.join(LAWS_DIR, `${law.mst}.json`),
+            JSON.stringify({ ...law, articles }, null, 2),
+            'utf-8'
+          );
+          const entry = index.find((l) => l.mst === law.mst);
+          if (entry) entry.hasArticles = true;
+        }
+      } catch (err) {
+        console.warn(`재시도 실패: ${law.name} (MST=${law.mst}) - ${err.message}`);
+      }
+      await sleep(300);
+    }
+  }
+
+  const articlesFailed = index.filter((l) => !l.hasArticles).length;
 
   index.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
 
