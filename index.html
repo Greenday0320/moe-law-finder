@@ -50,16 +50,20 @@
 
 <div class="detail-overlay" id="detail-overlay" hidden>
   <div class="detail-panel">
-    <button class="close-btn" id="detail-close" aria-label="닫기">&times;</button>
-    <h2 id="detail-title"></h2>
-    <p class="detail-meta" id="detail-meta"></p>
-    <div class="related-tabs" id="related-tabs"></div>
-    <a id="detail-link" href="#" target="_blank" rel="noopener">국가법령정보센터에서 원문 보기 ↗</a>
-
-    <div class="article-search">
-      <input type="search" id="article-search-input" placeholder="이 법령 조문 내 검색" autocomplete="off" />
+    <div class="detail-sticky-bar">
+      <button class="close-btn" id="detail-close" aria-label="닫기">&times;</button>
     </div>
-    <div id="detail-articles"></div>
+    <div class="detail-body">
+      <h2 id="detail-title"></h2>
+      <p class="detail-meta" id="detail-meta"></p>
+      <div class="related-tabs" id="related-tabs"></div>
+      <a id="detail-link" href="#" target="_blank" rel="noopener">국가법령정보센터에서 원문 보기 ↗</a>
+
+      <div class="article-search">
+        <input type="search" id="article-search-input" placeholder="이 법령 조문 내 검색" autocomplete="off" />
+      </div>
+      <div id="detail-articles"></div>
+    </div>
   </div>
 </div>
 
