@@ -8,6 +8,10 @@
   "promulgationDate": "20251223",
   "enforcementDate": "20251223",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280455",
+  "departments": [
+    "교원정책과-초중등교원",
+    "대학정책과"
+  ],
   "articles": [
     {
       "no": "1",

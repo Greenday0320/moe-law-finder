@@ -8,6 +8,10 @@
   "promulgationDate": "20221227",
   "enforcementDate": "20230628",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=246585",
+  "departments": [
+    "평생학습정책과",
+    "직업능력평가과"
+  ],
   "articles": [
     {
       "no": "1",

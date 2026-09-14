@@ -8,6 +8,10 @@
   "promulgationDate": "20260526",
   "enforcementDate": "20260526",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286325",
+  "departments": [
+    "복지정책과",
+    "학교정책과"
+  ],
   "articles": [
     {
       "no": "1",

@@ -8,6 +8,11 @@
   "promulgationDate": "20210924",
   "enforcementDate": "20210924",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=235639",
+  "departments": [
+    "교원정책과:초중등교원",
+    "대학정책과",
+    "전문대학지원과"
+  ],
   "articles": [
     {
       "no": "1",

@@ -8,6 +8,10 @@
   "promulgationDate": "20250916",
   "enforcementDate": "20250919",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273699",
+  "departments": [
+    "교원정책과",
+    "교원양성연수과"
+  ],
   "articles": [
     {
       "no": "1",

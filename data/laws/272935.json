@@ -8,6 +8,10 @@
   "promulgationDate": "20250721",
   "enforcementDate": "20250722",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272935",
+  "departments": [
+    "대학시설지원과",
+    "학교시설개선팀"
+  ],
   "articles": [
     {
       "no": "1",

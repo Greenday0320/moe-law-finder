@@ -8,6 +8,10 @@
   "promulgationDate": "20251230",
   "enforcementDate": "20260102",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281561",
+  "departments": [
+    "문화정책과",
+    "학술연구정책과"
+  ],
   "articles": [
     {
       "no": "1",

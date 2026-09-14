@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:08:28.950Z",
+  "updatedAt": "2026-09-14T13:26:48.794Z",
   "count": 271,
   "laws": [
     {
@@ -12,6 +12,9 @@
       "promulgationDate": "19691204",
       "enforcementDate": "19691204",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=24144",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -24,6 +27,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230353",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -36,6 +42,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284667",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -48,6 +57,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137527",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -60,6 +72,9 @@
       "promulgationDate": "20231010",
       "enforcementDate": "20240411",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=255185",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -72,6 +87,15 @@
       "promulgationDate": "20260310",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283883",
+      "departments": [
+        "교원양성연수과",
+        "대학정책과",
+        "사립대학지원과",
+        "평생학습정책과",
+        "전문대학지원과",
+        "대학학사운영과",
+        "교육데이터정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -84,6 +108,15 @@
       "promulgationDate": "20260908",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289437",
+      "departments": [
+        "대학정책과",
+        "교원양성연수과",
+        "사립대학지원과",
+        "교육데이터정책과",
+        "대학학사운영과",
+        "평생학습정책과",
+        "전문대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -96,6 +129,11 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284671",
+      "departments": [
+        "학교정책과",
+        "학교시설개선팀",
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -108,6 +146,11 @@
       "promulgationDate": "20170118",
       "enforcementDate": "20170118",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=191256",
+      "departments": [
+        "학교정책과",
+        "학교시설개선팀",
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -120,6 +163,9 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20260101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280425",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -132,6 +178,9 @@
       "promulgationDate": "20250131",
       "enforcementDate": "20250131",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268711",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -144,6 +193,9 @@
       "promulgationDate": "20260526",
       "enforcementDate": "20260526",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286323",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -156,6 +208,9 @@
       "promulgationDate": "20171024",
       "enforcementDate": "20180425",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=198221",
+      "departments": [
+        "인공지능교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -168,6 +223,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281435",
+      "departments": [
+        "인공지능교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -180,6 +238,9 @@
       "promulgationDate": "20251125",
       "enforcementDate": "20251125",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279889",
+      "departments": [
+        "교육콘텐츠정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -192,6 +253,9 @@
       "promulgationDate": "20040903",
       "enforcementDate": "20040903",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=61460",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -204,6 +268,9 @@
       "promulgationDate": "20210105",
       "enforcementDate": "20210105",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=227009",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -216,6 +283,9 @@
       "promulgationDate": "20220427",
       "enforcementDate": "20220427",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=241955",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -228,6 +298,9 @@
       "promulgationDate": "20190702",
       "enforcementDate": "20190702",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=209624",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -240,6 +313,11 @@
       "promulgationDate": "20210924",
       "enforcementDate": "20210924",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=235639",
+      "departments": [
+        "교원정책과:초중등교원",
+        "대학정책과",
+        "전문대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -252,6 +330,10 @@
       "promulgationDate": "20260219",
       "enforcementDate": "20260219",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283357",
+      "departments": [
+        "교원정책과",
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -264,6 +346,10 @@
       "promulgationDate": "20250916",
       "enforcementDate": "20250919",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273699",
+      "departments": [
+        "교원정책과",
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -276,6 +362,9 @@
       "promulgationDate": "20241002",
       "enforcementDate": "20241002",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=265627",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -288,6 +377,9 @@
       "promulgationDate": "20260327",
       "enforcementDate": "20260327",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285245",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -300,6 +392,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137581",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -312,6 +407,9 @@
       "promulgationDate": "20210330",
       "enforcementDate": "20210330",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230745",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -324,6 +422,9 @@
       "promulgationDate": "20240202",
       "enforcementDate": "20240202",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=260101",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -336,6 +437,9 @@
       "promulgationDate": "20260616",
       "enforcementDate": "20260616",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287009",
+      "departments": [
+        "교원정책과-초중등교원"
+      ],
       "hasArticles": true
     },
     {
@@ -348,6 +452,9 @@
       "promulgationDate": "20260414",
       "enforcementDate": "20260414",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285461",
+      "departments": [
+        "교원정책과-초중등교원"
+      ],
       "hasArticles": true
     },
     {
@@ -360,6 +467,9 @@
       "promulgationDate": "20130531",
       "enforcementDate": "20130612",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=140704",
+      "departments": [
+        "교원정책과-초등교원"
+      ],
       "hasArticles": true
     },
     {
@@ -372,6 +482,9 @@
       "promulgationDate": "20220905",
       "enforcementDate": "20250301",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=244529",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -384,6 +497,10 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280455",
+      "departments": [
+        "교원정책과-초중등교원",
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -396,6 +513,10 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280727",
+      "departments": [
+        "교원정책과-초중등교원",
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -408,6 +529,10 @@
       "promulgationDate": "20250814",
       "enforcementDate": "20260215",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273345",
+      "departments": [
+        "대학정책과-대학교원",
+        "교원정책과-초중등교원"
+      ],
       "hasArticles": true
     },
     {
@@ -420,6 +545,9 @@
       "promulgationDate": "20250916",
       "enforcementDate": "20250919",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273697",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -432,6 +560,9 @@
       "promulgationDate": "20210720",
       "enforcementDate": "20220721",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233995",
+      "departments": [
+        "교육데이터정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -444,6 +575,9 @@
       "promulgationDate": "20250211",
       "enforcementDate": "20250211",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268971",
+      "departments": [
+        "교육데이터정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -456,6 +590,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230359",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -468,6 +605,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281437",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -480,6 +620,9 @@
       "promulgationDate": "20260506",
       "enforcementDate": "20260506",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285783",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -492,6 +635,9 @@
       "promulgationDate": "20240618",
       "enforcementDate": "20240618",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=263243",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -504,6 +650,10 @@
       "promulgationDate": "20260721",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288207",
+      "departments": [
+        "혁신행정담당관",
+        "사회조직과"
+      ],
       "hasArticles": true
     },
     {
@@ -516,6 +666,9 @@
       "promulgationDate": "20260721",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288307",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -528,6 +681,9 @@
       "promulgationDate": "20230303",
       "enforcementDate": "20230303",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=248725",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -540,6 +696,10 @@
       "promulgationDate": "20240206",
       "enforcementDate": "20250207",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=259603",
+      "departments": [
+        "대학시설지원과",
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -552,6 +712,10 @@
       "promulgationDate": "20250207",
       "enforcementDate": "20250207",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269059",
+      "departments": [
+        "대학시설지원과",
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -564,6 +728,10 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281439",
+      "departments": [
+        "학교시설개선팀",
+        "대학시설지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -576,6 +744,9 @@
       "promulgationDate": "20251202",
       "enforcementDate": "20260603",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280023",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -588,6 +759,9 @@
       "promulgationDate": "20220427",
       "enforcementDate": "20220427",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=241953",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -600,6 +774,9 @@
       "promulgationDate": "20260602",
       "enforcementDate": "20260603",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286641",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -612,6 +789,9 @@
       "promulgationDate": "20210322",
       "enforcementDate": "20210322",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230567",
+      "departments": [
+        "운영지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -624,6 +804,9 @@
       "promulgationDate": "20190917",
       "enforcementDate": "20190917",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=210514",
+      "departments": [
+        "예산담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -636,6 +819,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276167",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -648,6 +834,9 @@
       "promulgationDate": "20210630",
       "enforcementDate": "20210630",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233539",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -660,6 +849,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280957",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -672,6 +864,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276169",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -684,6 +879,9 @@
       "promulgationDate": "20210630",
       "enforcementDate": "20210630",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233541",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -696,6 +894,9 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250131",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268347",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -708,6 +909,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276173",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -720,6 +924,9 @@
       "promulgationDate": "20221017",
       "enforcementDate": "20221017",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=245037",
+      "departments": [
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -732,6 +939,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=135649",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -744,6 +954,10 @@
       "promulgationDate": "20260219",
       "enforcementDate": "20260301",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283465",
+      "departments": [
+        "혁신행정담당관",
+        "사회조직과"
+      ],
       "hasArticles": true
     },
     {
@@ -756,6 +970,9 @@
       "promulgationDate": "20260721",
       "enforcementDate": "20260721",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288311",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -768,6 +985,10 @@
       "promulgationDate": "20260623",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287089",
+      "departments": [
+        "혁신행정담당관",
+        "국립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -780,6 +1001,9 @@
       "promulgationDate": "20230412",
       "enforcementDate": "20230412",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=249913",
+      "departments": [
+        "반부패청렴담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -792,6 +1016,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284687",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -804,6 +1031,9 @@
       "promulgationDate": "20180430",
       "enforcementDate": "20180430",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=203450",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -816,6 +1046,10 @@
       "promulgationDate": "20260526",
       "enforcementDate": "20260526",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286325",
+      "departments": [
+        "복지정책과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -828,6 +1062,9 @@
       "promulgationDate": "20230919",
       "enforcementDate": "20230919",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=254877",
+      "departments": [
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -840,6 +1077,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137529",
+      "departments": [
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -852,6 +1092,9 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279641",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -864,6 +1107,9 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280479",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -876,6 +1122,9 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268517",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -888,6 +1137,9 @@
       "promulgationDate": "20250715",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272821",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -900,6 +1152,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284717",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -912,6 +1167,9 @@
       "promulgationDate": "20220207",
       "enforcementDate": "20220207",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=240223",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -924,6 +1182,10 @@
       "promulgationDate": "20200422",
       "enforcementDate": "20200422",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=217615",
+      "departments": [
+        "대학정책과",
+        "대학학사운영과"
+      ],
       "hasArticles": true
     },
     {
@@ -936,6 +1198,9 @@
       "promulgationDate": "20180830",
       "enforcementDate": "20180830",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=204332",
+      "departments": [
+        "대입정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -948,6 +1213,9 @@
       "promulgationDate": "20190423",
       "enforcementDate": "20190423",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=208425",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -960,6 +1228,9 @@
       "promulgationDate": "20151230",
       "enforcementDate": "20151230",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=177894",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -972,6 +1243,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284719",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -984,6 +1258,9 @@
       "promulgationDate": "20211207",
       "enforcementDate": "20221208",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=237375",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -996,6 +1273,9 @@
       "promulgationDate": "20250311",
       "enforcementDate": "20250311",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269667",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1008,6 +1288,10 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284721",
+      "departments": [
+        "산학협력지원과",
+        "사립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1020,6 +1304,9 @@
       "promulgationDate": "20240321",
       "enforcementDate": "20240321",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=261227",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1032,6 +1319,9 @@
       "promulgationDate": "20260227",
       "enforcementDate": "20260301",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283827",
+      "departments": [
+        "규제개혁법무담당관실"
+      ],
       "hasArticles": true
     },
     {
@@ -1044,6 +1334,10 @@
       "promulgationDate": "20240903",
       "enforcementDate": "20240903",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=265111",
+      "departments": [
+        "학술연구정책과",
+        "예술정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1056,6 +1350,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=135664",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1068,6 +1365,9 @@
       "promulgationDate": "20200324",
       "enforcementDate": "20200925",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=215653",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1080,6 +1380,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137358",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1092,6 +1395,9 @@
       "promulgationDate": "20260107",
       "enforcementDate": "20260301",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=282771",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1104,6 +1410,9 @@
       "promulgationDate": "20260305",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284069",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -1116,6 +1425,9 @@
       "promulgationDate": "20150327",
       "enforcementDate": "20150928",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=169467",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1128,6 +1440,9 @@
       "promulgationDate": "20231229",
       "enforcementDate": "20231229",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=257907",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1140,6 +1455,9 @@
       "promulgationDate": "20150925",
       "enforcementDate": "20150928",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=175171",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1152,6 +1470,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230371",
+      "departments": [
+        "동북아역사대응팀"
+      ],
       "hasArticles": true
     },
     {
@@ -1164,6 +1485,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281441",
+      "departments": [
+        "동북아역사대응팀"
+      ],
       "hasArticles": true
     },
     {
@@ -1176,6 +1500,9 @@
       "promulgationDate": "20260310",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283889",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1188,6 +1515,9 @@
       "promulgationDate": "20220325",
       "enforcementDate": "20220325",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=241557",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1200,6 +1530,9 @@
       "promulgationDate": "20250917",
       "enforcementDate": "20250917",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273729",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1212,6 +1545,9 @@
       "promulgationDate": "20220217",
       "enforcementDate": "20220218",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=240515",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1224,6 +1560,9 @@
       "promulgationDate": "20220427",
       "enforcementDate": "20220427",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=241957",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1236,6 +1575,9 @@
       "promulgationDate": "20191017",
       "enforcementDate": "20191017",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=210844",
+      "departments": [
+        "교원정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1248,6 +1590,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230373",
+      "departments": [
+        "대학학사운영과"
+      ],
       "hasArticles": true
     },
     {
@@ -1260,6 +1605,9 @@
       "promulgationDate": "20250312",
       "enforcementDate": "20250312",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269723",
+      "departments": [
+        "대학학사운영과"
+      ],
       "hasArticles": true
     },
     {
@@ -1272,6 +1620,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=135672",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1284,6 +1635,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137600",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1296,6 +1650,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230421",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1308,6 +1665,9 @@
       "promulgationDate": "20221004",
       "enforcementDate": "20221004",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=244829",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1320,6 +1680,9 @@
       "promulgationDate": "20260210",
       "enforcementDate": "20260815",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283301",
+      "departments": [
+        "사립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1332,6 +1695,9 @@
       "promulgationDate": "20260811",
       "enforcementDate": "20260815",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288667",
+      "departments": [
+        "규제개혁법무담당관실"
+      ],
       "hasArticles": true
     },
     {
@@ -1344,6 +1710,9 @@
       "promulgationDate": "20200929",
       "enforcementDate": "20200929",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=224223",
+      "departments": [
+        "교원정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1356,6 +1725,9 @@
       "promulgationDate": "20190917",
       "enforcementDate": "20190917",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=210518",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1368,6 +1740,9 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20260212",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279623",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1380,6 +1755,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281443",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1392,6 +1770,10 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279625",
+      "departments": [
+        "사립대학지원과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1404,6 +1786,10 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280457",
+      "departments": [
+        "사립대학지원과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1416,6 +1802,10 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137530",
+      "departments": [
+        "사립대학지원과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1428,6 +1818,9 @@
       "promulgationDate": "20240521",
       "enforcementDate": "20240521",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=262737",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1440,6 +1833,11 @@
       "promulgationDate": "20250418",
       "enforcementDate": "20250719",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=270757",
+      "departments": [
+        "사립대학지원과",
+        "영유아재정과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1452,6 +1850,10 @@
       "promulgationDate": "20230531",
       "enforcementDate": "20230601",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=251375",
+      "departments": [
+        "사립대학지원과",
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -1464,6 +1866,9 @@
       "promulgationDate": "20241220",
       "enforcementDate": "20250621",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=267351",
+      "departments": [
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1476,6 +1881,9 @@
       "promulgationDate": "20260327",
       "enforcementDate": "20260327",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285257",
+      "departments": [
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1488,6 +1896,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284767",
+      "departments": [
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1500,6 +1911,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276177",
+      "departments": [
+        "의대교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -1512,6 +1926,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281445",
+      "departments": [
+        "의대교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -1524,6 +1941,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276179",
+      "departments": [
+        "의대교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -1536,6 +1956,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281447",
+      "departments": [
+        "의대교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -1548,6 +1971,9 @@
       "promulgationDate": "20160420",
       "enforcementDate": "20160420",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=182660",
+      "departments": [
+        "교원정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1560,6 +1986,9 @@
       "promulgationDate": "20260205",
       "enforcementDate": "20260226",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283253",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1572,6 +2001,9 @@
       "promulgationDate": "20260225",
       "enforcementDate": "20260226",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283613",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1584,6 +2016,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278261",
+      "departments": [
+        "양성평등정책담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -1596,6 +2031,12 @@
       "promulgationDate": "20240731",
       "enforcementDate": "20240731",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=264655",
+      "departments": [
+        "교통기획과",
+        "장애인권익지원과-장애인 보호구역 관련",
+        "교통안전정책과",
+        "교육안전정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1608,6 +2049,9 @@
       "promulgationDate": "20240830",
       "enforcementDate": "20240830",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=265051",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1620,6 +2064,9 @@
       "promulgationDate": "20260519",
       "enforcementDate": "20260519",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286057",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1632,6 +2079,9 @@
       "promulgationDate": "20260508",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286013",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1644,6 +2094,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284623",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1656,6 +2109,9 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20260101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280393",
+      "departments": [
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -1668,6 +2124,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276181",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1680,6 +2139,9 @@
       "promulgationDate": "20231212",
       "enforcementDate": "20231212",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=256503",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1692,6 +2154,9 @@
       "promulgationDate": "20250916",
       "enforcementDate": "20250919",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273703",
+      "departments": [
+        "고교학점제지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -1704,6 +2169,9 @@
       "promulgationDate": "20250408",
       "enforcementDate": "20250408",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=270517",
+      "departments": [
+        "교육국제화담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -1716,6 +2184,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276183",
+      "departments": [
+        "국제교육정책담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -1728,6 +2199,9 @@
       "promulgationDate": "20260519",
       "enforcementDate": "20260519",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286061",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1740,6 +2214,9 @@
       "promulgationDate": "20221201",
       "enforcementDate": "20230101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=245761",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1752,6 +2229,9 @@
       "promulgationDate": "20260414",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285451",
+      "departments": [
+        "영유아정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1764,6 +2244,9 @@
       "promulgationDate": "20251015",
       "enforcementDate": "20251015",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279177",
+      "departments": [
+        "디지털교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -1776,6 +2259,10 @@
       "promulgationDate": "20181218",
       "enforcementDate": "20190619",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=205795",
+      "departments": [
+        "문화정책과",
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1788,6 +2275,10 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281561",
+      "departments": [
+        "문화정책과",
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1800,6 +2291,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276187",
+      "departments": [
+        "민주시민교육과"
+      ],
       "hasArticles": true
     },
     {
@@ -1812,6 +2306,9 @@
       "promulgationDate": "20151210",
       "enforcementDate": "20151210",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=177277",
+      "departments": [
+        "민주시민교육과"
+      ],
       "hasArticles": true
     },
     {
@@ -1824,6 +2321,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280961",
+      "departments": [
+        "민주시민교육과"
+      ],
       "hasArticles": true
     },
     {
@@ -1836,6 +2336,9 @@
       "promulgationDate": "20260602",
       "enforcementDate": "20260602",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286589",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1848,6 +2351,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280963",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -1860,6 +2366,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=135690",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -1872,6 +2381,10 @@
       "promulgationDate": "20221227",
       "enforcementDate": "20230628",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=246585",
+      "departments": [
+        "평생학습정책과",
+        "직업능력평가과"
+      ],
       "hasArticles": true
     },
     {
@@ -1884,6 +2397,10 @@
       "promulgationDate": "20260710",
       "enforcementDate": "20260710",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288081",
+      "departments": [
+        "평생학습정책과",
+        "직업능력평가과"
+      ],
       "hasArticles": true
     },
     {
@@ -1896,6 +2413,10 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278267",
+      "departments": [
+        "평생학습정책과",
+        "직업능력평가과"
+      ],
       "hasArticles": true
     },
     {
@@ -1908,6 +2429,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=135692",
+      "departments": [
+        "직업교육정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1920,6 +2444,11 @@
       "promulgationDate": "20241220",
       "enforcementDate": "20251221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=267353",
+      "departments": [
+        "장애인서비스과",
+        "영유아재정과",
+        "장애인건강과-발달재활서비스"
+      ],
       "hasArticles": true
     },
     {
@@ -1932,6 +2461,11 @@
       "promulgationDate": "20251219",
       "enforcementDate": "20251221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280637",
+      "departments": [
+        "장애인서비스과",
+        "영유아재정과",
+        "장애인건강과-발달재활서비스"
+      ],
       "hasArticles": true
     },
     {
@@ -1944,6 +2478,11 @@
       "promulgationDate": "20241126",
       "enforcementDate": "20241126",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=266527",
+      "departments": [
+        "장애인서비스과",
+        "장애인건강과-발달재활서비스",
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -1956,6 +2495,9 @@
       "promulgationDate": "20241126",
       "enforcementDate": "20241126",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=266609",
+      "departments": [
+        "영유아재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -1968,6 +2510,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276191",
+      "departments": [
+        "특수교육정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1980,6 +2525,9 @@
       "promulgationDate": "20250620",
       "enforcementDate": "20250621",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272431",
+      "departments": [
+        "특수교육정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -1992,6 +2540,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284839",
+      "departments": [
+        "특수교육정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2004,6 +2555,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137531",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2016,6 +2570,9 @@
       "promulgationDate": "20190702",
       "enforcementDate": "20190702",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=209754",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2028,6 +2585,9 @@
       "promulgationDate": "20250814",
       "enforcementDate": "20250814",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273357",
+      "departments": [
+        "재외교육지원담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2040,6 +2600,9 @@
       "promulgationDate": "20210712",
       "enforcementDate": "20210712",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233885",
+      "departments": [
+        "재외교육지원담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2052,6 +2615,9 @@
       "promulgationDate": "20211221",
       "enforcementDate": "20211221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=238087",
+      "departments": [
+        "재외교육지원담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2064,6 +2630,9 @@
       "promulgationDate": "20190702",
       "enforcementDate": "20190702",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=209760",
+      "departments": [
+        "디지털교육기반과"
+      ],
       "hasArticles": true
     },
     {
@@ -2076,6 +2645,9 @@
       "promulgationDate": "20161230",
       "enforcementDate": "20170101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=190557",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2088,6 +2660,9 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279639",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -2100,6 +2675,9 @@
       "promulgationDate": "20260506",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285789",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -2112,6 +2690,9 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20260101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280399",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2124,6 +2705,9 @@
       "promulgationDate": "20251202",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280199",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2136,6 +2720,9 @@
       "promulgationDate": "20251202",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279967",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2148,6 +2735,10 @@
       "promulgationDate": "20260623",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287045",
+      "departments": [
+        "교원정책과",
+        "사회조직과"
+      ],
       "hasArticles": true
     },
     {
@@ -2160,6 +2751,10 @@
       "promulgationDate": "20260724",
       "enforcementDate": "20260724",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288411",
+      "departments": [
+        "교원정책과",
+        "사회조직과"
+      ],
       "hasArticles": true
     },
     {
@@ -2172,6 +2767,9 @@
       "promulgationDate": "20180319",
       "enforcementDate": "20180319",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=202857",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2184,6 +2782,9 @@
       "promulgationDate": "20220121",
       "enforcementDate": "20220121",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=239943",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2196,6 +2797,9 @@
       "promulgationDate": "20240903",
       "enforcementDate": "20240903",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=265139",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2208,6 +2812,9 @@
       "promulgationDate": "20260630",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287749",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2220,6 +2827,9 @@
       "promulgationDate": "20260623",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287057",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -2232,6 +2842,9 @@
       "promulgationDate": "20180309",
       "enforcementDate": "20180309",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=202621",
+      "departments": [
+        "교육자치협력과"
+      ],
       "hasArticles": true
     },
     {
@@ -2244,6 +2857,9 @@
       "promulgationDate": "20260210",
       "enforcementDate": "20260811",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283299",
+      "departments": [
+        "지역대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2256,6 +2872,9 @@
       "promulgationDate": "20260721",
       "enforcementDate": "20260811",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288203",
+      "departments": [
+        "지역대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2268,6 +2887,9 @@
       "promulgationDate": "20220801",
       "enforcementDate": "20220801",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=244051",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2280,6 +2902,9 @@
       "promulgationDate": "20231205",
       "enforcementDate": "20240101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=256359",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2292,6 +2917,10 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276195",
+      "departments": [
+        "직업교육정책과",
+        "기업훈련지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2304,6 +2933,10 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278273",
+      "departments": [
+        "직업교육정책과",
+        "기업훈련지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2316,6 +2949,9 @@
       "promulgationDate": "20210720",
       "enforcementDate": "20220721",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=234005",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -2328,6 +2964,9 @@
       "promulgationDate": "20231121",
       "enforcementDate": "20231121",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=256321",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -2340,6 +2979,9 @@
       "promulgationDate": "20250312",
       "enforcementDate": "20250312",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269763",
+      "departments": [
+        "공교육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -2352,6 +2994,9 @@
       "promulgationDate": "20260310",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283903",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2364,6 +3009,9 @@
       "promulgationDate": "20260311",
       "enforcementDate": "20260311",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284493",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2376,6 +3024,9 @@
       "promulgationDate": "20260908",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289439",
+      "departments": [
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2388,6 +3039,9 @@
       "promulgationDate": "20260219",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283419",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2400,6 +3054,9 @@
       "promulgationDate": "20240701",
       "enforcementDate": "20240701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=263565",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2412,6 +3069,9 @@
       "promulgationDate": "20260616",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286955",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2424,6 +3084,9 @@
       "promulgationDate": "20120126",
       "enforcementDate": "20190801",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=122406",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -2436,6 +3099,9 @@
       "promulgationDate": "20181218",
       "enforcementDate": "20190619",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=205801",
+      "departments": [
+        "국제교육정책담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2448,6 +3114,9 @@
       "promulgationDate": "20190521",
       "enforcementDate": "20190619",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=208699",
+      "departments": [
+        "국제교육정책담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2460,6 +3129,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284895",
+      "departments": [
+        "특수교육정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2472,6 +3144,9 @@
       "promulgationDate": "20250312",
       "enforcementDate": "20250312",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269767",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2484,6 +3159,10 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20260512",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279615",
+      "departments": [
+        "평생학습정책과",
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2496,6 +3175,10 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=282217",
+      "departments": [
+        "평생학습정책과",
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2508,6 +3191,10 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284897",
+      "departments": [
+        "평생학습정책과",
+        "산학협력지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2520,6 +3207,9 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268523",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2532,6 +3222,9 @@
       "promulgationDate": "20231116",
       "enforcementDate": "20231116",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=256099",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2544,6 +3237,9 @@
       "promulgationDate": "20250310",
       "enforcementDate": "20250310",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=269791",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2556,6 +3252,9 @@
       "promulgationDate": "20260219",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283421",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2568,6 +3267,9 @@
       "promulgationDate": "20210630",
       "enforcementDate": "20210630",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233553",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2580,6 +3282,9 @@
       "promulgationDate": "20260819",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288941",
+      "departments": [
+        "학생건강정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2592,6 +3297,9 @@
       "promulgationDate": "20211207",
       "enforcementDate": "20221208",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=237399",
+      "departments": [
+        "민주시민교육과"
+      ],
       "hasArticles": true
     },
     {
@@ -2604,6 +3312,9 @@
       "promulgationDate": "20230328",
       "enforcementDate": "20230328",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=249177",
+      "departments": [
+        "민주시민교육과"
+      ],
       "hasArticles": true
     },
     {
@@ -2616,6 +3327,10 @@
       "promulgationDate": "20240618",
       "enforcementDate": "20240618",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=263249",
+      "departments": [
+        "사립대학지원과",
+        "학교정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2628,6 +3343,10 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276197",
+      "departments": [
+        "학생건강정책과(환경위생)",
+        "학생건강정책과(보건)"
+      ],
       "hasArticles": true
     },
     {
@@ -2640,6 +3359,10 @@
       "promulgationDate": "20250919",
       "enforcementDate": "20250919",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273853",
+      "departments": [
+        "학생건강정책과(환경위생)",
+        "학생건강정책과(보건)"
+      ],
       "hasArticles": true
     },
     {
@@ -2652,6 +3375,10 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284905",
+      "departments": [
+        "학생건강정책과(보건)",
+        "학생건강정책과(환경위생)"
+      ],
       "hasArticles": true
     },
     {
@@ -2664,6 +3391,10 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268507",
+      "departments": [
+        "학교시설개선팀",
+        "대학시설지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -2676,6 +3407,10 @@
       "promulgationDate": "20250721",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272935",
+      "departments": [
+        "대학시설지원과",
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2688,6 +3423,10 @@
       "promulgationDate": "20250721",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272805",
+      "departments": [
+        "대학시설지원과",
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2700,6 +3439,9 @@
       "promulgationDate": "20251111",
       "enforcementDate": "20251111",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279619",
+      "departments": [
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2712,6 +3454,9 @@
       "promulgationDate": "20190917",
       "enforcementDate": "20190917",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=210529",
+      "departments": [
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2724,6 +3469,9 @@
       "promulgationDate": "20221129",
       "enforcementDate": "20221201",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=245607",
+      "departments": [
+        "학교시설개선팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2736,6 +3484,9 @@
       "promulgationDate": "20251202",
       "enforcementDate": "20251202",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280025",
+      "departments": [
+        "교육안전정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2748,6 +3499,9 @@
       "promulgationDate": "20250722",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272937",
+      "departments": [
+        "교육안전정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2760,6 +3514,9 @@
       "promulgationDate": "20250721",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272803",
+      "departments": [
+        "교육안전정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2772,6 +3529,9 @@
       "promulgationDate": "20241220",
       "enforcementDate": "20250621",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=267343",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2784,6 +3544,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278277",
+      "departments": [
+        "지방교육재정과"
+      ],
       "hasArticles": true
     },
     {
@@ -2796,6 +3559,10 @@
       "promulgationDate": "20241220",
       "enforcementDate": "20241220",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=267307",
+      "departments": [
+        "체육예술교육팀",
+        "체육진흥과"
+      ],
       "hasArticles": true
     },
     {
@@ -2808,6 +3575,9 @@
       "promulgationDate": "20241018",
       "enforcementDate": "20241018",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=266049",
+      "departments": [
+        "체육예술교육팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2820,6 +3590,9 @@
       "promulgationDate": "20230912",
       "enforcementDate": "20230915",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=254751",
+      "departments": [
+        "체육예술교육팀"
+      ],
       "hasArticles": true
     },
     {
@@ -2832,6 +3605,9 @@
       "promulgationDate": "20260602",
       "enforcementDate": "20260602",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286361",
+      "departments": [
+        "학교폭력대책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2844,6 +3620,9 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280967",
+      "departments": [
+        "학교폭력대책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2856,6 +3635,9 @@
       "promulgationDate": "20130323",
       "enforcementDate": "20130323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=137626",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -2868,6 +3650,9 @@
       "promulgationDate": "20260519",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=286069",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -2880,6 +3665,9 @@
       "promulgationDate": "20260227",
       "enforcementDate": "20260301",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283671",
+      "departments": [
+        "학생지원총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -2892,6 +3680,9 @@
       "promulgationDate": "20081231",
       "enforcementDate": "20090101",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=91010",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -2904,6 +3695,10 @@
       "promulgationDate": "20230830",
       "enforcementDate": "20230830",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=254343",
+      "departments": [
+        "학술연구정책과",
+        "사회조직과"
+      ],
       "hasArticles": true
     },
     {
@@ -2916,6 +3711,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210623",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230413",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2928,6 +3726,9 @@
       "promulgationDate": "20201013",
       "enforcementDate": "20201013",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=220701",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2940,6 +3741,9 @@
       "promulgationDate": "20221108",
       "enforcementDate": "20221108",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=245227",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2952,6 +3756,9 @@
       "promulgationDate": "20230418",
       "enforcementDate": "20231019",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=249991",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2964,6 +3771,9 @@
       "promulgationDate": "20260716",
       "enforcementDate": "20260716",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288263",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2976,6 +3786,9 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284907",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -2988,6 +3801,9 @@
       "promulgationDate": "20230808",
       "enforcementDate": "20240517",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=253403",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3000,6 +3816,9 @@
       "promulgationDate": "20210630",
       "enforcementDate": "20210630",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233555",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3012,6 +3831,9 @@
       "promulgationDate": "20260127",
       "enforcementDate": "20260127",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=282911",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3024,6 +3846,9 @@
       "promulgationDate": "20260707",
       "enforcementDate": "20260707",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=287799",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3036,6 +3861,9 @@
       "promulgationDate": "20200204",
       "enforcementDate": "20200221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=214017",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3048,6 +3876,9 @@
       "promulgationDate": "20240312",
       "enforcementDate": "20240312",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=261057",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -3060,6 +3891,9 @@
       "promulgationDate": "20210323",
       "enforcementDate": "20210323",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=230419",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -3072,6 +3906,9 @@
       "promulgationDate": "20180424",
       "enforcementDate": "20180424",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=203303",
+      "departments": [
+        "인재정책총괄과"
+      ],
       "hasArticles": true
     },
     {
@@ -3084,6 +3921,9 @@
       "promulgationDate": "20260219",
       "enforcementDate": "20260820",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283423",
+      "departments": [
+        "교원양성연수과"
+      ],
       "hasArticles": true
     },
     {
@@ -3096,6 +3936,9 @@
       "promulgationDate": "20181218",
       "enforcementDate": "20190619",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=205806",
+      "departments": [
+        "대학정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3108,6 +3951,9 @@
       "promulgationDate": "20221018",
       "enforcementDate": "20230419",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=244959",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3120,6 +3966,9 @@
       "promulgationDate": "20240312",
       "enforcementDate": "20240312",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=261045",
+      "departments": [
+        "평생학습정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3132,6 +3981,9 @@
       "promulgationDate": "20210924",
       "enforcementDate": "20220325",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=235545",
+      "departments": [
+        "사립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -3144,6 +3996,9 @@
       "promulgationDate": "20220125",
       "enforcementDate": "20220325",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=239625",
+      "departments": [
+        "사립대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -3156,6 +4011,10 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276253",
+      "departments": [
+        "학술연구정책과",
+        "연구개발정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3168,6 +4027,11 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20251001",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278281",
+      "departments": [
+        "학술연구정책과",
+        "거대공공연구협력과",
+        "연구개발정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3180,6 +4044,10 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20251230",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281769",
+      "departments": [
+        "예술정책과",
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -3192,6 +4060,9 @@
       "promulgationDate": "20161129",
       "enforcementDate": "20161130",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=187778",
+      "departments": [
+        "혁신행정담당관"
+      ],
       "hasArticles": true
     },
     {
@@ -3204,6 +4075,9 @@
       "promulgationDate": "20251001",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276203",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -3216,6 +4090,9 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250131",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=268473",
+      "departments": [
+        "청년장학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -3228,6 +4105,9 @@
       "promulgationDate": "20190423",
       "enforcementDate": "20191024",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=208436",
+      "departments": [
+        "전문대학지원과"
+      ],
       "hasArticles": true
     },
     {
@@ -3240,6 +4120,9 @@
       "promulgationDate": "20190820",
       "enforcementDate": "20200221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=210142",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     },
     {
@@ -3252,6 +4135,9 @@
       "promulgationDate": "20200204",
       "enforcementDate": "20200221",
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=214019",
+      "departments": [
+        "학술연구정책과"
+      ],
       "hasArticles": true
     }
   ]

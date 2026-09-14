@@ -8,6 +8,10 @@
   "promulgationDate": "20260724",
   "enforcementDate": "20260724",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288411",
+  "departments": [
+    "교원정책과",
+    "사회조직과"
+  ],
   "articles": [
     {
       "no": "1",

@@ -8,6 +8,10 @@
   "promulgationDate": "20251001",
   "enforcementDate": "20251001",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=278273",
+  "departments": [
+    "직업교육정책과",
+    "기업훈련지원과"
+  ],
   "articles": [
     {
       "no": "1",

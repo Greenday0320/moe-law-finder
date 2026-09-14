@@ -8,6 +8,10 @@
   "promulgationDate": "20200422",
   "enforcementDate": "20200422",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=217615",
+  "departments": [
+    "대학정책과",
+    "대학학사운영과"
+  ],
   "articles": [
     {
       "no": "1",

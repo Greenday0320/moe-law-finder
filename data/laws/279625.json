@@ -8,6 +8,10 @@
   "promulgationDate": "20251111",
   "enforcementDate": "20260512",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279625",
+  "departments": [
+    "사립대학지원과",
+    "학교정책과"
+  ],
   "articles": [
     {
       "no": "1",

@@ -8,6 +8,10 @@
   "promulgationDate": "20230830",
   "enforcementDate": "20230830",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=254343",
+  "departments": [
+    "학술연구정책과",
+    "사회조직과"
+  ],
   "articles": [
     {
       "no": "1",

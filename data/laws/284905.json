@@ -8,6 +8,10 @@
   "promulgationDate": "20260324",
   "enforcementDate": "20260324",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284905",
+  "departments": [
+    "학생건강정책과(보건)",
+    "학생건강정책과(환경위생)"
+  ],
   "articles": [
     {
       "no": "1",

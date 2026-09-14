@@ -8,6 +8,15 @@
   "promulgationDate": "20260310",
   "enforcementDate": "20260911",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283883",
+  "departments": [
+    "교원양성연수과",
+    "대학정책과",
+    "사립대학지원과",
+    "평생학습정책과",
+    "전문대학지원과",
+    "대학학사운영과",
+    "교육데이터정책과"
+  ],
   "articles": [
     {
       "no": "1",

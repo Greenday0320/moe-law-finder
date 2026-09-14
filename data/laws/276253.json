@@ -8,6 +8,10 @@
   "promulgationDate": "20251001",
   "enforcementDate": "20251001",
   "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=276253",
+  "departments": [
+    "학술연구정책과",
+    "연구개발정책과"
+  ],
   "articles": [
     {
       "no": "1",
