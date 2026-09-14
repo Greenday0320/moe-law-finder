@@ -98,16 +98,16 @@ function normalizeLawEntry(raw) {
   const promulgationDate = pick(raw, ['공포일자', 'promulgationDate']);
   const enforcementDate = pick(raw, ['시행일자', 'enforcementDate']);
   const lawId = pick(raw, ['법령ID', 'lawId']);
-  const apiLink = pick(raw, ['법령상세링크', 'detailLink']);
 
   let category = '기타';
   if (categoryRaw.includes('법률')) category = '법률';
   else if (categoryRaw.includes('대통령령')) category = '시행령';
   else if (categoryRaw.includes('총리령') || categoryRaw.includes('부령')) category = '시행규칙';
 
-  const detailLink = apiLink
-    ? (apiLink.startsWith('http') ? apiLink : `https://www.law.go.kr${apiLink}`)
-    : `https://www.law.go.kr/법령/${encodeURIComponent(name ?? '')}`;
+  // API의 "법령상세링크" 필드는 OC 인증키가 그대로 박힌 내부 DRF API 주소라
+  // 일반 사용자에게 노출하면 안 되고 권한도 없으면 접근이 막힌다.
+  // 대신 일반인이 보는 국가법령정보센터 공개 페이지 주소(lsiSeq=법령일련번호)를 사용한다.
+  const detailLink = `https://www.law.go.kr/lsInfoP.do?lsiSeq=${mst}`;
 
   return {
     id: lawId ?? mst,
