@@ -130,29 +130,42 @@ function normalizeLawEntry(raw) {
 // 항/호/목은 1개뿐이면 배열이 아닌 단일 객체로 오는 경우가 있어 항상 배열로 감싸 순회한다.
 const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
 
+// 항내용/호내용/목내용 등은 보통 문자열이지만, 줄바꿈이 있는 경우 문자열 배열로
+// 오기도 해서 두 형태 모두 안전하게 하나의 문자열로 합친다.
+function textOf(v) {
+  if (v == null) return '';
+  if (Array.isArray(v)) return v.map(textOf).filter(Boolean).join('\n').trim();
+  if (typeof v === 'string') return v.trim();
+  return String(v).trim();
+}
+
 function walkMok(mok, lines) {
   for (const m of asList(mok)) {
-    if (m?.목내용) lines.push(m.목내용.trim());
+    const t = textOf(m?.목내용);
+    if (t) lines.push(t);
   }
 }
 
 function walkHo(ho, lines) {
   for (const h of asList(ho)) {
-    if (h?.호내용) lines.push(h.호내용.trim());
+    const t = textOf(h?.호내용);
+    if (t) lines.push(t);
     if (h?.목) walkMok(h.목, lines);
   }
 }
 
 function walkHang(hang, lines) {
   for (const h of asList(hang)) {
-    if (h?.항내용) lines.push(h.항내용.trim());
+    const t = textOf(h?.항내용);
+    if (t) lines.push(t);
     if (h?.호) walkHo(h.호, lines);
   }
 }
 
 function formatJoText(jo) {
   const lines = [];
-  if (jo?.조문내용) lines.push(jo.조문내용.trim());
+  const t = textOf(jo?.조문내용);
+  if (t) lines.push(t);
   if (jo?.항) walkHang(jo.항, lines);
   return lines.join('\n');
 }
