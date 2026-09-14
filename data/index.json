@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:02:58.829Z",
+  "updatedAt": "2026-09-14T13:08:28.950Z",
   "count": 271,
   "laws": [
     {
@@ -84,7 +84,7 @@
       "promulgationDate": "20260908",
       "enforcementDate": "20260911",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=289437&type=HTML&mobileYn=&efYd=20260911",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "002235",
@@ -336,7 +336,7 @@
       "promulgationDate": "20260616",
       "enforcementDate": "20260616",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=287009&type=HTML&mobileYn=&efYd=20260616",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "006542",
@@ -384,7 +384,7 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=280455&type=HTML&mobileYn=&efYd=20251223",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "006546",
@@ -804,7 +804,7 @@
       "promulgationDate": "20180430",
       "enforcementDate": "20180430",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=203450&type=HTML&mobileYn=&efYd=20180430",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "011727",
@@ -1380,7 +1380,7 @@
       "promulgationDate": "20251230",
       "enforcementDate": "20260102",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=281443&type=HTML&mobileYn=&efYd=20260102",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "000888",
@@ -1404,7 +1404,7 @@
       "promulgationDate": "20251223",
       "enforcementDate": "20251223",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=280457&type=HTML&mobileYn=&efYd=20251223",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "007318",
@@ -1488,7 +1488,7 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=284767&type=HTML&mobileYn=&efYd=20260324",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "000875",
@@ -2412,7 +2412,7 @@
       "promulgationDate": "20260616",
       "enforcementDate": "20260701",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=286955&type=HTML&mobileYn=&efYd=20260701",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "009537",
@@ -2508,7 +2508,7 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=284897&type=HTML&mobileYn=&efYd=20260324",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "002010",
@@ -2652,7 +2652,7 @@
       "promulgationDate": "20260324",
       "enforcementDate": "20260324",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=284905&type=HTML&mobileYn=&efYd=20260324",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "013702",
@@ -2664,7 +2664,7 @@
       "promulgationDate": "20250121",
       "enforcementDate": "20250722",
       "detailLink": "https://www.law.go.kr/DRF/lawService.do?OC=mansaok123&target=law&MST=268507&type=HTML&mobileYn=&efYd=20250722",
-      "hasArticles": false
+      "hasArticles": true
     },
     {
       "id": "014904",
