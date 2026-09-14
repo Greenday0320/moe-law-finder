@@ -10,6 +10,8 @@
   --law-color: #1a4d8f;
   --decree-color: #a8590a;
   --rule-color: #2f7a3d;
+  --header-bg: #1a4d8f;
+  --header-text: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +27,10 @@
     --law-color: #6ea8f0;
     --decree-color: #e0a95f;
     --rule-color: #7cc98a;
+    /* 다크 모드에서는 밝은 파스텔 블루를 헤더 전체에 크게 칠하면 화면과
+       너무 튀어 보여서, 헤더만 어둡게 가라앉힌 남색을 따로 쓴다. */
+    --header-bg: #142a4d;
+    --header-text: #eef3fb;
   }
 }
 
@@ -39,8 +45,8 @@ html, body {
 }
 
 .app-header {
-  background: var(--primary);
-  color: var(--primary-contrast);
+  background: var(--header-bg);
+  color: var(--header-text);
   padding: 20px 16px 16px;
 }
 

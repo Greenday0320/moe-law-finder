@@ -98,7 +98,13 @@
 
   function setDepartment(name) {
     state.department = name;
-    switchView('search');
+    // 조직도 화면에서 넘어온 경우, 뒤로가기를 눌렀을 때 조직도로 돌아가는 대신
+    // 바로 앱을 나가도록 눌러뒀던 히스토리 항목을 조용히 지운다.
+    if (history.state && history.state.deep === 'org') {
+      history.replaceState(null, '');
+    }
+    pushedDepth = false;
+    switchViewUI('search');
     render();
   }
 
@@ -148,11 +154,38 @@
     });
   }
 
-  function switchView(mode) {
+  // 모바일 뒤로가기를 눌렀을 때 앱이 통째로 종료되지 않고, 열려 있던
+  // 상세보기나 부서별 화면부터 하나씩 닫히도록 히스토리 항목을 관리한다.
+  // 상세보기와 부서별 화면은 동시에 "깊이 1"까지만 쌓이므로(부서 선택 시
+  // 검색 화면으로 바로 넘어가고, 상세보기는 검색 화면에서만 열림) 별도
+  // 스택 없이 pushedDepth 플래그 하나로 충분하다.
+  let pushedDepth = false;
+
+  function switchViewUI(mode) {
     viewModeButtons.forEach((b) => b.classList.toggle('active', b.dataset.mode === mode));
     searchView.hidden = mode !== 'search';
     orgView.hidden = mode !== 'org';
   }
+
+  function switchView(mode) {
+    const current = orgView.hidden ? 'search' : 'org';
+    if (mode === current) return;
+    if (mode === 'org') {
+      history.pushState({ deep: 'org' }, '');
+      pushedDepth = true;
+      switchViewUI('org');
+    } else if (pushedDepth) {
+      history.back();
+    } else {
+      switchViewUI('search');
+    }
+  }
+
+  window.addEventListener('popstate', () => {
+    pushedDepth = false;
+    if (!overlay.hidden) overlay.hidden = true;
+    if (!orgView.hidden) switchViewUI('search');
+  });
 
   function render() {
     renderDeptChip();
@@ -177,6 +210,10 @@
   }
 
   async function openDetail(law) {
+    if (overlay.hidden) {
+      history.pushState({ deep: 'detail' }, '');
+      pushedDepth = true;
+    }
     overlay.hidden = false;
     detailTitle.textContent = law.name;
     detailMeta.textContent = `${law.categoryRaw || law.category} · ${deptLabel(law)} · 공포 ${formatDate(law.promulgationDate)} · 시행 ${formatDate(law.enforcementDate)}`;
@@ -249,7 +286,11 @@
   }
 
   function closeDetail() {
-    overlay.hidden = true;
+    if (pushedDepth) {
+      history.back();
+    } else {
+      overlay.hidden = true;
+    }
   }
 
   searchInput.addEventListener('input', () => {
