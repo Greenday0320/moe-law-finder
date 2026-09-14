@@ -115,39 +115,50 @@ function normalizeLawEntry(raw) {
   };
 }
 
-// 조문 JSON은 항/호/목 등 중첩 구조가 버전에 따라 달라질 수 있어
-// "내용"류 키를 가진 문자열 값을 순서대로 재귀 수집하는 방식으로 방어적으로 파싱한다.
-function collectText(node, out) {
-  if (node == null) return;
-  if (typeof node === 'string') return;
-  if (Array.isArray(node)) {
-    for (const item of node) collectText(item, out);
-    return;
+// 조문 JSON 실제 구조(law.go.kr lawService.do 응답 확인 결과):
+//   법령.조문.조문단위[] = { 조문번호, 조문제목?, 조문내용, 항?: {...} | [...] }
+//   항 = { 항내용, 호?: {...} | [...] }
+//   호 = { 호내용, 목?: {...} | [...] }
+//   목 = { 목내용 }
+// 항/호/목은 1개뿐이면 배열이 아닌 단일 객체로 오는 경우가 있어 항상 배열로 감싸 순회한다.
+const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
+
+function walkMok(mok, lines) {
+  for (const m of asList(mok)) {
+    if (m?.목내용) lines.push(m.목내용.trim());
   }
-  if (typeof node === 'object') {
-    for (const [key, value] of Object.entries(node)) {
-      if (typeof value === 'string' && /내용|제목/.test(key)) {
-        const trimmed = value.trim();
-        if (trimmed) out.push(trimmed);
-      } else {
-        collectText(value, out);
-      }
-    }
+}
+
+function walkHo(ho, lines) {
+  for (const h of asList(ho)) {
+    if (h?.호내용) lines.push(h.호내용.trim());
+    if (h?.목) walkMok(h.목, lines);
   }
+}
+
+function walkHang(hang, lines) {
+  for (const h of asList(hang)) {
+    if (h?.항내용) lines.push(h.항내용.trim());
+    if (h?.호) walkHo(h.호, lines);
+  }
+}
+
+function formatJoText(jo) {
+  const lines = [];
+  if (jo?.조문내용) lines.push(jo.조문내용.trim());
+  if (jo?.항) walkHang(jo.항, lines);
+  return lines.join('\n');
 }
 
 function extractArticles(json) {
   const root = json?.법령 ?? json?.Law ?? json;
   const joMok = root?.조문?.조문단위 ?? root?.조문 ?? null;
   if (!joMok) return [];
-  const list = Array.isArray(joMok) ? joMok : [joMok];
-  return list
+  return asList(joMok)
     .map((jo) => {
       const no = pick(jo, ['조문번호', '조번호']);
       const title = pick(jo, ['조문제목', '조제목']) || '';
-      const texts = [];
-      collectText(jo, texts);
-      const text = texts.join('\n');
+      const text = formatJoText(jo);
       if (!no && !text) return null;
       return { no, title, text };
     })
