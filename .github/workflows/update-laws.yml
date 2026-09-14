@@ -35,3 +35,4 @@ jobs:
             git commit -m "chore: 법령 데이터 갱신 $(date -u +%Y-%m-%d)"
             git push
           fi
+# sync
