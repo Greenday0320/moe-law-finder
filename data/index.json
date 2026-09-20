@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:26:48.794Z",
+  "updatedAt": "2026-09-20T22:06:39.503Z",
   "count": 271,
   "laws": [
     {
@@ -3046,14 +3046,14 @@
     },
     {
       "id": "011328",
-      "mst": "263565",
+      "mst": "289805",
       "name": "취업 후 학자금 상환 특별법 시행규칙",
       "category": "시행규칙",
       "categoryRaw": "교육부령",
       "department": "교육부",
-      "promulgationDate": "20240701",
-      "enforcementDate": "20240701",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=263565",
+      "promulgationDate": "20260918",
+      "enforcementDate": "20260918",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289805",
       "departments": [
         "청년장학지원과"
       ],
@@ -3506,14 +3506,14 @@
     },
     {
       "id": "010519",
-      "mst": "272803",
+      "mst": "289695",
       "name": "학교안전사고 예방 및 보상에 관한 법률 시행령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20250721",
-      "enforcementDate": "20250722",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=272803",
+      "promulgationDate": "20260915",
+      "enforcementDate": "20260915",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289695",
       "departments": [
         "교육안전정책과"
       ],
