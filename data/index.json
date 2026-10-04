@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-27T22:46:26.173Z",
-  "count": 271,
+  "updatedAt": "2026-10-04T22:41:04.246Z",
+  "count": 272,
   "laws": [
     {
       "id": "004546",
@@ -489,14 +489,14 @@
     },
     {
       "id": "002586",
-      "mst": "280455",
+      "mst": "290345",
       "name": "교육공무원 징계령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20251223",
-      "enforcementDate": "20251223",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280455",
+      "promulgationDate": "20260929",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290345",
       "departments": [
         "교원정책과-초중등교원",
         "대학정책과"
@@ -521,14 +521,14 @@
     },
     {
       "id": "001616",
-      "mst": "273345",
+      "mst": "290751",
       "name": "교육공무원법",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20250814",
-      "enforcementDate": "20260215",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=273345",
+      "promulgationDate": "20260804",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290751",
       "departments": [
         "대학정책과-대학교원",
         "교원정책과-초중등교원"
@@ -1732,14 +1732,14 @@
     },
     {
       "id": "001615",
-      "mst": "279623",
+      "mst": "290719",
       "name": "사립학교교직원 연금법",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20251111",
-      "enforcementDate": "20260212",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279623",
+      "promulgationDate": "20260324",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290719",
       "departments": [
         "교원양성연수과"
       ],
@@ -1747,14 +1747,14 @@
     },
     {
       "id": "003725",
-      "mst": "281443",
+      "mst": "290433",
       "name": "사립학교교직원 연금법 시행령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20251230",
-      "enforcementDate": "20260102",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=281443",
+      "promulgationDate": "20260929",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290433",
       "departments": [
         "교원양성연수과"
       ],
@@ -1762,14 +1762,14 @@
     },
     {
       "id": "000888",
-      "mst": "279625",
+      "mst": "290777",
       "name": "사립학교법",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20251111",
-      "enforcementDate": "20260512",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279625",
+      "promulgationDate": "20260804",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290777",
       "departments": [
         "사립대학지원과",
         "학교정책과"
@@ -1778,14 +1778,14 @@
     },
     {
       "id": "003727",
-      "mst": "280457",
+      "mst": "290435",
       "name": "사립학교법 시행령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20251223",
-      "enforcementDate": "20251223",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=280457",
+      "promulgationDate": "20260929",
+      "enforcementDate": "20261002",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290435",
       "departments": [
         "사립대학지원과",
         "학교정책과"
@@ -2617,6 +2617,21 @@
       "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=238087",
       "departments": [
         "재외교육지원담당관"
+      ],
+      "hasArticles": true
+    },
+    {
+      "id": "015225",
+      "mst": "290805",
+      "name": "전남광주통합특별시 설치에 따른 전남광주통합특별시교육감 소속 공무원 인사관리 특례에 관한 규칙",
+      "category": "시행규칙",
+      "categoryRaw": "교육부령",
+      "department": "교육부",
+      "promulgationDate": "20260930",
+      "enforcementDate": "20260930",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290805",
+      "departments": [
+        "규제개혁법무담당관실"
       ],
       "hasArticles": true
     },
@@ -3748,14 +3763,14 @@
     },
     {
       "id": "000850",
-      "mst": "249991",
+      "mst": "285147",
       "name": "학원의 설립ㆍ운영 및 과외교습에 관한 법률",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20230418",
-      "enforcementDate": "20231019",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=249991",
+      "promulgationDate": "20260331",
+      "enforcementDate": "20261001",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285147",
       "departments": [
         "평생학습정책과"
       ],
@@ -3778,14 +3793,14 @@
     },
     {
       "id": "005397",
-      "mst": "284907",
+      "mst": "290261",
       "name": "학원의 설립ㆍ운영 및 과외교습에 관한 법률 시행령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20260324",
-      "enforcementDate": "20260324",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=284907",
+      "promulgationDate": "20260929",
+      "enforcementDate": "20261001",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=290261",
       "departments": [
         "평생학습정책과"
       ],
