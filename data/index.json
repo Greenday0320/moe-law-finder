@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T22:15:04.844Z",
+  "updatedAt": "2026-11-01T23:18:00.127Z",
   "count": 272,
   "laws": [
     {
@@ -230,14 +230,14 @@
     },
     {
       "id": "002546",
-      "mst": "279889",
+      "mst": "291487",
       "name": "교과용 도서에 관한 규정",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20251125",
-      "enforcementDate": "20251125",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279889",
+      "promulgationDate": "20261027",
+      "enforcementDate": "20261029",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=291487",
       "departments": [
         "교육콘텐츠정책과"
       ],
@@ -1084,14 +1084,14 @@
     },
     {
       "id": "014148",
-      "mst": "279641",
+      "mst": "285645",
       "name": "기초학력 보장법",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20251111",
-      "enforcementDate": "20260512",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=279641",
+      "promulgationDate": "20260428",
+      "enforcementDate": "20261029",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285645",
       "departments": [
         "공교육진흥과"
       ],
@@ -3001,14 +3001,14 @@
     },
     {
       "id": "000900",
-      "mst": "283903",
+      "mst": "285599",
       "name": "초ㆍ중등교육법",
       "category": "법률",
       "categoryRaw": "법률",
       "department": "교육부",
-      "promulgationDate": "20260310",
-      "enforcementDate": "20260911",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283903",
+      "promulgationDate": "20260428",
+      "enforcementDate": "20261029",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=285599",
       "departments": [
         "학교정책과"
       ],
@@ -3031,14 +3031,14 @@
     },
     {
       "id": "005238",
-      "mst": "289439",
+      "mst": "291283",
       "name": "초ㆍ중등교육법 시행령",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부",
-      "promulgationDate": "20260908",
-      "enforcementDate": "20260911",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289439",
+      "promulgationDate": "20261027",
+      "enforcementDate": "20261029",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=291283",
       "departments": [
         "학교정책과"
       ],
