@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T23:18:00.127Z",
+  "updatedAt": "2026-11-08T23:22:22.927Z",
   "count": 272,
   "laws": [
     {
@@ -642,14 +642,14 @@
     },
     {
       "id": "011779",
-      "mst": "288207",
+      "mst": "291627",
       "name": "교육부와 그 소속기관 직제",
       "category": "시행령",
       "categoryRaw": "대통령령",
       "department": "교육부,행정안전부",
-      "promulgationDate": "20260721",
-      "enforcementDate": "20260820",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288207",
+      "promulgationDate": "20261106",
+      "enforcementDate": "20261106",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=291627",
       "departments": [
         "혁신행정담당관",
         "사회조직과"
@@ -658,14 +658,14 @@
     },
     {
       "id": "011811",
-      "mst": "288307",
+      "mst": "291849",
       "name": "교육부와 그 소속기관 직제 시행규칙",
       "category": "시행규칙",
       "categoryRaw": "교육부령",
       "department": "교육부",
-      "promulgationDate": "20260721",
-      "enforcementDate": "20260820",
-      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=288307",
+      "promulgationDate": "20261106",
+      "enforcementDate": "20261106",
+      "detailLink": "https://www.law.go.kr/lsInfoP.do?lsiSeq=291849",
       "departments": [
         "혁신행정담당관"
       ],
